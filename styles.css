@@ -1,19 +1,71 @@
-*{
-  border: thin green solid;
+/* *{
+  border: thin rgb(95, 172, 95) solid;
+} */
+html{
+  min-height: 100%;
 }
 
 body{
+  min-height: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
+  background: linear-gradient(45deg, #1f225b, #3f2a70, #673286, #9c3d99, #b44287, #cd4974, #e65359, #ff794b);
+  color: rgb(255, 255, 255, 1.0);
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-container {
+  max-width: 640px;
+  margin: auto;
 }
 .avatar-image {
   width: 128px;
   height: 128px;
   border-radius: 128px;
+  /* margin: auto;
+  display: block; */
   /* object-fit: cover; */
 }
 .thumbnail{
   width: 48px;
   height: 48px;
   border-radius: 48px;
+  object-fit: cover;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.item {
+  background-color: rgba(149, 123, 173, 0.5);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 4px 4px 10px 0px rgba(43, 15, 43, 0.5);
+}
+.image-row {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.name-row {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.social-icons-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.link-text {
+  text-align: center;
+  flex-grow: 1;
 }
