@@ -13,3 +13,6 @@ The design uses a gradient background, circular images for profile pictures and 
 Profile Section: Profile image and name displayed at the top.
 Social Media Links: Easy access to your GitHub, LinkedIn, and Instagram.
 Tutorial Links: Feature clickable tutorial links related to HTML, CSS, and JavaScript.
+
+To run the code on server, we use the command
+bin/server
